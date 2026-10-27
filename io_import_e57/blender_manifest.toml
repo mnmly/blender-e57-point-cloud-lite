@@ -1,0 +1,20 @@
+schema_version = "1.0.0"
+
+id = "io_import_e57"
+version = "0.1.0"
+name = "E57 Point Cloud Lite"
+tagline = "Dependency-free E57 laser scan importer"
+maintainer = "Hiroaki Yamane"
+website = "https://github.com/mnmly/aa-blender-extensions"
+type = "add-on"
+
+blender_version_min = "5.2.0"
+
+license = ["SPDX:GPL-3.0-or-later"]
+
+tags = ["Import-Export"]
+
+# Pure Python + numpy (bundled with Blender), so no wheels or per-platform builds.
+
+[permissions]
+files = "Read E57 files from disk"
