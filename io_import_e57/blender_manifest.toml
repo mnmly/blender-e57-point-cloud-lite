@@ -5,7 +5,7 @@ version = "0.1.0"
 name = "E57 Point Cloud Lite"
 tagline = "Dependency-free E57 laser scan importer"
 maintainer = "Hiroaki Yamane"
-website = "https://github.com/mnmly/aa-blender-extensions"
+website = "https://github.com/mnmly/blender-e57-point-cloud-lite"
 type = "add-on"
 
 blender_version_min = "5.2.0"
